@@ -1,4 +1,4 @@
-version: '3.4'
+iversion: '3.4'
 
 # Please consult our docs for more info: https://docs.librechat.ai/install/configuration/docker_override.html
 
@@ -21,9 +21,9 @@ version: '3.4'
 
 # ---------------------------------------------------
 
-# services:
+services:
 
-# # USE LIBRECHAT CONFIG FILE
+ # USE LIBRECHAT CONFIG FILE
    api:
      volumes:
        - ./librechat.yaml:/app/librechat.yaml
