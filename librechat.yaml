@@ -5,7 +5,8 @@ version: 1.0.0
 cache: true
 
 registration:
-  allowedDomains: "uoregon.edu"
+  allowedDomains:
+    - "uoregon.edu"
 
 
 # Definition of custom endpoints
