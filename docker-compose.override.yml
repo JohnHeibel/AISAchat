@@ -27,6 +27,9 @@ services:
    api:
      volumes:
        - ./librechat.yaml:/app/librechat.yaml
+     environment:
+       - ENDPOINTS=openAI,assistants,azureOpenAI,bingAI,chatGPTBrowser,google,gptPlugins,anthropic
+
 
 # # BUILD FROM LATEST IMAGE
 #   api:
