@@ -8,7 +8,10 @@ registration:
   allowedDomains:
     - "uoregon.edu"
 
-
+endpoints:
+  assistants:
+    # Disable Assistants Builder Interface by setting to `true`
+    disableBuilder: false 
 
 # See the Custom Configuration Guide for more information:
 # https://docs.librechat.ai/install/configuration/custom_config.html
