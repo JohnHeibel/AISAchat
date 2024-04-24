@@ -24,7 +24,7 @@ endpoints:
           ]
         fetch: false
       titleConvo: true
-      titleModel: 'llama3-8b-8192"'
+      titleModel: 'llama3-8b-8192'
       modelDisplayLabel: 'groq'
 
 # See the Custom Configuration Guide for more information:
