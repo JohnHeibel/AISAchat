@@ -12,6 +12,20 @@ endpoints:
   assistants:
     # Disable Assistants Builder Interface by setting to `true`
     disableBuilder: false 
+  custom:
+    # Groq Example
+    - name: 'groq'
+      apiKey: '${GROQ_API_KEY}'
+      baseURL: 'https://api.groq.com/openai/v1/'
+      models:
+        default: [
+          "llama3-70b-8192",
+          "llama3-8b-8192",
+          ]
+        fetch: false
+      titleConvo: true
+      titleModel: 'llama3-8b-8192"'
+      modelDisplayLabel: 'groq'
 
 # See the Custom Configuration Guide for more information:
 # https://docs.librechat.ai/install/configuration/custom_config.html
